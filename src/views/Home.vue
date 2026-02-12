@@ -36,7 +36,7 @@ h1 {
 
 p {
   font-size: 1.4rem;
-  color: #0077be;
+  color: #3d5f7f;
   background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(8px);
   padding: 1.5rem 2.5rem;

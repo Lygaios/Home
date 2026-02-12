@@ -26,9 +26,9 @@ export default {
 
 h1 {
   margin-bottom: 2rem;
-  color: #0288d1;
+  color: #598cc4;
   font-size: 2.5rem;
   font-weight: 700;
-  text-shadow: 0 2px 8px rgba(3, 169, 244, 0.2);
+  text-shadow: 0 2px 8px rgba(89, 140, 196, 0.2);
 }
 </style>
