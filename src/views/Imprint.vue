@@ -26,7 +26,7 @@ export default {
 
 h1 {
   margin-bottom: 2rem;
-  color: #598cc4;
+  color: #2a4559;
   font-size: 2.5rem;
   font-weight: 700;
   text-shadow: 0 2px 8px rgba(89, 140, 196, 0.2);

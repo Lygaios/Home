@@ -22,7 +22,7 @@ export default {
 h1 {
   font-size: 4.5rem;
   margin-bottom: 1.5rem;
-  background: linear-gradient(135deg, #3a5159 0%, #4f6c76 100%);
+  background: linear-gradient(135deg, #2a4559 0%, #3d5f7f 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -36,9 +36,10 @@ h1 {
 
 p {
   font-size: 1.4rem;
-  color: #3d5f7f;
-  background: rgba(255, 255, 255, 0.85);
-  backdrop-filter: blur(8px);
+  background: linear-gradient(135deg, #2a4559 0%, #3d5f7f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   padding: 1.5rem 2.5rem;
   border-radius: 30px;
   box-shadow: 0 8px 24px rgba(135, 206, 250, 0.35),
@@ -46,5 +47,16 @@ p {
               0 0 0 1px rgba(135, 206, 250, 0.3);
   display: inline-block;
   font-weight: 500;
+  position: relative;
+}
+
+p::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(8px);
+  border-radius: 30px;
+  z-index: -1;
 }
 </style>
