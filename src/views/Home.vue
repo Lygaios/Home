@@ -22,14 +22,16 @@ export default {
 h1 {
   font-size: 4.5rem;
   margin-bottom: 1.5rem;
-  color: #4f6c76;
+  background: linear-gradient(135deg, #3a5159 0%, #4f6c76 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
   font-weight: 700;
   letter-spacing: 0.05em;
-  text-shadow: 0 0 40px rgba(255, 255, 255, 0.8),
-               0 0 80px rgba(255, 255, 255, 0.6),
-               0 0 120px rgba(255, 255, 255, 0.4),
-               2px 2px 20px rgba(255, 255, 255, 0.9),
-               -2px -2px 20px rgba(255, 255, 255, 0.9);
+  filter: drop-shadow(0 0 40px rgba(255, 255, 255, 0.8))
+          drop-shadow(0 0 80px rgba(255, 255, 255, 0.6))
+          drop-shadow(2px 2px 20px rgba(255, 255, 255, 0.9))
+          drop-shadow(-2px -2px 20px rgba(255, 255, 255, 0.9));
 }
 
 p {
