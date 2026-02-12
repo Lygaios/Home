@@ -19,43 +19,15 @@ export default {
 
 <style scoped>
 nav {
-  padding: 1.5rem 2rem;
+  padding: 2rem;
   text-align: center;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(240, 248, 255, 0.9) 100%);
-  backdrop-filter: blur(10px);
-  box-shadow: 0 4px 20px rgba(135, 206, 250, 0.3), 
-              inset 0 1px 0 rgba(255, 255, 255, 0.8);
-  border-bottom: 1px solid rgba(135, 206, 250, 0.4);
-  border-radius: 0 0 20px 20px;
-  margin: 0 auto 2rem;
-  max-width: 800px;
+  background-color: #f0f0f0;
 }
 
 nav a {
   margin: 0 1rem;
-  padding: 0.5rem 1.2rem;
   text-decoration: none;
-  color: #598cc4;
-  font-weight: 600;
-  border-radius: 20px;
-  transition: all 0.3s ease;
-  display: inline-block;
-  background: rgba(255, 255, 255, 0.6);
-  box-shadow: 0 2px 8px rgba(135, 206, 250, 0.2);
-}
-
-nav a:hover {
-  color: #4a7db5;
-  background: rgba(255, 255, 255, 0.9);
-  box-shadow: 0 4px 12px rgba(135, 206, 250, 0.4);
-  transform: translateY(-2px);
-}
-
-nav a.router-link-active {
-  color: #fff;
-  background: linear-gradient(135deg, #598cc4 0%, #6393ca 100%);
-  box-shadow: 0 4px 15px rgba(89, 140, 196, 0.4), 
-              inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  color: #333;
 }
 
 main {
