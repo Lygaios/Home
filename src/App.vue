@@ -19,28 +19,48 @@ export default {
 
 <style scoped>
 nav {
-  padding: 2rem;
+  padding: 1.5rem 2rem;
   text-align: center;
-  background-color: #f0f0f0;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.95) 0%, rgba(240, 248, 255, 0.9) 100%);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 20px rgba(135, 206, 250, 0.3), 
+              inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  border-bottom: 1px solid rgba(135, 206, 250, 0.4);
+  border-radius: 0 0 20px 20px;
+  margin: 0 auto 2rem;
+  max-width: 800px;
 }
 
 nav a {
   margin: 0 1rem;
+  padding: 0.5rem 1.2rem;
   text-decoration: none;
-  color: #333;
-  font-weight: 500;
+  color: #0077be;
+  font-weight: 600;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 2px 8px rgba(135, 206, 250, 0.2);
 }
 
 nav a:hover {
-  color: #42b983;
+  color: #005a9c;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 4px 12px rgba(135, 206, 250, 0.4);
+  transform: translateY(-2px);
 }
 
 nav a.router-link-active {
-  color: #42b983;
-  border-bottom: 2px solid #42b983;
+  color: #fff;
+  background: linear-gradient(135deg, #4fc3f7 0%, #29b6f6 50%, #03a9f4 100%);
+  box-shadow: 0 4px 15px rgba(3, 169, 244, 0.4), 
+              inset 0 1px 0 rgba(255, 255, 255, 0.3);
 }
 
 main {
   padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 </style>
