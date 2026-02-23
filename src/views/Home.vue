@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <h1>LYGAIOS</h1>
-    <p>Welcome to my project hub</p>
+    <p>A frontend developer's project hub</p>
   </div>
 </template>
 
