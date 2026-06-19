@@ -19,15 +19,24 @@ export default {
 
 <style scoped>
 nav {
-  padding: 2rem;
+  padding: 1.5rem 2rem;
   text-align: center;
-  background-color: #f0f0f0;
+  background: rgba(255, 255, 255, 0.85);
 }
 
 nav a {
-  margin: 0 1rem;
+  margin: 0 1.5rem;
   text-decoration: none;
-  color: #333;
+  color: #2a4559;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #598cc4;
+}
+
+nav a.router-link-active {
+  color: #598cc4;
 }
 
 main {
