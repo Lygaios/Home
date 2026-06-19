@@ -22,6 +22,9 @@ nav {
   padding: 1.5rem 2rem;
   text-align: center;
   background: rgba(255, 255, 255, 0.85);
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 nav a {
