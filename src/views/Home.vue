@@ -72,9 +72,6 @@ h1 {
   background-clip: text;
   padding: 1.5rem 2.5rem;
   border-radius: 30px;
-  box-shadow: 0 8px 24px rgba(135, 206, 250, 0.35),
-              inset 0 1px 0 rgba(255, 255, 255, 0.9),
-              0 0 0 1px rgba(135, 206, 250, 0.3);
   display: inline-block;
   font-weight: 500;
   position: relative;
@@ -88,6 +85,9 @@ h1 {
   background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(8px);
   border-radius: 30px;
+  box-shadow: 0 8px 24px rgba(135, 206, 250, 0.35),
+              inset 0 1px 0 rgba(255, 255, 255, 0.9),
+              0 0 0 1px rgba(135, 206, 250, 0.3);
   z-index: -1;
 }
 
